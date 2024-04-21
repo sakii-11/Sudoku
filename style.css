@@ -1,0 +1,75 @@
+.cell{
+  width:40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid white;
+  transition: all 0.4s ease-in-out;
+}
+
+button{
+  margin-top: 20px;
+  background-color: rgb(13, 57, 233);
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+  border: none;
+}
+button:hover{
+  background-color:rgb(97, 124, 232) ;
+}
+
+body{
+  font-family: Arial;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+
+}
+
+h1{
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  border-collapse: collapse;
+  border: 5px solid black;
+}
+
+table tr:nth-child(3n) td,
+table tr:nth-child(3n+3) td{
+  border-bottom: 2px solid black;
+}
+
+table td:nth-child(3n){
+  border-right: 2px solid black;
+}
+
+input{
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.solved {
+  background-color: #69b711;
+  transition: all 0.2s ease-in-out;
+}
